@@ -1,4 +1,4 @@
-//const,let等の変数宣言
+//⚪︎const,let等の変数宣言⚪︎
 // var val1 = "var変数";
 // console.log(val1);
 
@@ -43,7 +43,7 @@
 // val5.push("monkey");
 // console.log(val5);
 
-//テンプレート文字列
+//⚪︎テンプレート文字列⚪︎
 // const name = "森はるか";
 // const age = "21";
 // //私の名前ははるかです。年齢は２１歳です。
@@ -56,7 +56,7 @@
 // const message2 = `私の名前は${name}です。年齢は${age}歳ですよ。`;
 // console.log(message2);
 
-//アロー関数
+//⚪︎アロー関数⚪︎
 //従来の関数
 // function func1(str) {
 //     return str;
@@ -75,7 +75,7 @@
 // const func3 = (num1, num2) => num1 + num2;
 // console.log(func3(10,20));
 
-//分割代入
+//⚪︎分割代入⚪︎
 // const myProfile = {
 //     name:"森はるか",
 //     age:21,
@@ -96,11 +96,11 @@
 // const message4 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(message4);
 
-//デフォルト値、引数など
+//⚪︎デフォルト値、引数など⚪︎
 // const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
 // sayHello("はるか");
 
-//スプレッド構文...
+//⚪︎スプレッド構文...⚪︎
 //配列の展開
 // const arr1 = [1,2];
 // // console.log(arr1);
@@ -118,7 +118,15 @@
 // console.log(arr3);
 
 //配列のコピー、結合
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
+// const arr6 = [...arr4];
+// arr6[0] = 100;
+// console.log(arr4);
+
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
+
+// const arr8 = arr4;
+// console.log(arr8);
